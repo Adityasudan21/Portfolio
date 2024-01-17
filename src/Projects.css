@@ -9,3 +9,44 @@
     font-size: 50px;
     margin-top: 120px;
 }
+
+.project1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #EFFBFB;
+
+}
+
+.connect-turret-image {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.connect-turret-image>img {
+    border-radius: 10px;
+    border: 1px solid #007083;
+}
+
+.connect-turret-description>h4 {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://64.media.tumblr.com/80ff652d521bd0da41150ae3298b6052/f05e6f5230de85ca-57/s500x750/ee457eb2d2fb4d4b9a2d93c512f287a48cb7b7ce.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 65px;
+    margin: 0;
+    text-align: center;
+}
+
+.info {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: start;
+    color: #169F9F;
+}
