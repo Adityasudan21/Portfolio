@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import Main from './Main';
+import Projects from './Projects';
 import TechStack from './TechStack';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Main />
       <TechStack />
+      <Projects />
     </div>
   );
 }

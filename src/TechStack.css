@@ -23,11 +23,45 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
     cursor: pointer;
-    transition:transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.lang:hover{
-transform:scale(1.1);
+
+.lang:hover {
+    transform: scale(1.1);
 }
+
+.html:hover {
+    box-shadow: 0 0 20px #E54C21;
+}
+
+.css:hover {
+    box-shadow: 0 0 20px #1260AF;
+}
+
+.js:hover {
+    box-shadow: 0 0 20px #D3B62A;
+}
+
+.react:hover {
+    box-shadow: 0 0 20px #5CD9FB;
+}
+
+.redux:hover {
+    box-shadow: 0 0 20px rgb(118, 74, 188);
+}
+
+.node:hover {
+    box-shadow: 0 0 20px #77B062;
+}
+
+.ex:hover {
+    box-shadow: 0 0 20px #323232;
+}
+
+.firebase:hover {
+    box-shadow: 0 0 20px rgb(255, 202, 40);
+}
+
 
 .lang>img {
     object-fit: contain;
