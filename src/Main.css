@@ -23,7 +23,7 @@ h1 {
     }
 
     50% {
-        color: #0b638b;
+        color: #0F1035;
         /* Middle color */
     }
 
@@ -34,8 +34,9 @@ h1 {
 }
 
 .main>p {
+    display: inline-block;
     font-family: 'Times New Roman', Times, serif;
-    animation: colorChange 2s ease-in-out infinite;
+    animation: colorChange 5s ease-in-out infinite;
     font-size: 30px;
     margin: 0;
     margin-top: 90px;
