@@ -23,7 +23,7 @@
     padding-right: 20px;
 }
 
-.connect-turret-image>img {
+.connect-turret-image>a>img {
     object-fit: contain;
     border-radius: 10px;
     border: 1px solid #007083;

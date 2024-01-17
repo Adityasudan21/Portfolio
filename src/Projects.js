@@ -12,14 +12,14 @@ function Projects() {
         return () => clearInterval(intervalId);
     }, []);
     return (
-        <div className='projects'>
+        <div id="My-work" className='projects'>
             <div className="heading_projects">
                 <h4>Projects</h4>
             </div>
             <div className="project1">
                 <div className="connect-turret-image">
-                    <img className={`connect-turret-image-transition ${showFirstImage ? 'first' : 'second'}`}
-                        src={showFirstImage ? "https://i.ibb.co/p37vTFC/Screenshot-2024-01-18-004739.png" : "https://i.ibb.co/6DHBMws/Screenshot-2024-01-18-004819.png"} alt="Front Image" />
+                    <a href="https://connect-turret-2.web.app/" target="_blank"><img className={`connect-turret-image-transition ${showFirstImage ? 'first' : 'second'}`}
+                        title="Go to Website" src={showFirstImage ? "https://i.ibb.co/p37vTFC/Screenshot-2024-01-18-004739.png" : "https://i.ibb.co/6DHBMws/Screenshot-2024-01-18-004819.png"} alt="Front Image" /></a>
 
                 </div>
                 <div className="connect-turret-description">

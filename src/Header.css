@@ -16,6 +16,29 @@
     align-items: center;
 }
 
+.main_image {
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+}
+
+.main_image:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
+.header_right>a {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    color: inherit;
+    transition: transform 1s ease-in-out;
+}
+
+.header_right>a:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+    color: #0F1035;
+}
+
 .header_right>.bookmark {
     cursor: pointer;
     font-family: sans-serif;
@@ -27,7 +50,7 @@
 }
 
 .header_right>.bookmark:hover {
-    text-decoration: underline;
+    text-decoration: none;
 
 }
 

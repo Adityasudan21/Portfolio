@@ -41,15 +41,17 @@ function Header() {
                     anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
                     variant="dot"
                 >
-                    <Avatar alt="Aditya Sudan" src="https://i.ibb.co/0cF9z8Z/Aditya-Sudan.jpg" sx={{ width: 50, height: 50 }} />
+                    <div className='main_image'>
+                        <Avatar title="Aditya Sudan" alt="Aditya Sudan" src="https://i.ibb.co/0cF9z8Z/Aditya-Sudan.jpg" sx={{ width: 50, height: 50 }} />
+                    </div>
                 </StyledBadge>
             </div>
             <div className="header_right">
-                <h6 className='bookmark'> My Work</h6>
+                <a href="#My-work" ><h6 className='bookmark'> My Work</h6></a>
                 <h6 className='bookmark'>About Me</h6>
                 <h6 className='bookmark contact'>Contact</h6>
                 <div className="resume">
-                    <GetAppIcon sx={{ width: 20, height: 20 }}/>
+                    <GetAppIcon sx={{ width: 20, height: 20 }} />
                     <h6 className='bookmark'>Resume</h6>
                 </div>
 
