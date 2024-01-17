@@ -1,0 +1,45 @@
+.main {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://64.media.tumblr.com/47cd34c87f7f2b73551227088bdece1f/06d6465801a8064d-f8/s500x750/9c9ddf7d2c66d42aed38c4a2650501c4c2b9d661.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 65px;
+    margin: 0;
+    margin-top: 70px;
+    text-align: center;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #198ecd;
+        /* Start color */
+    }
+
+    50% {
+        color: #0b638b;
+        /* Middle color */
+    }
+
+    100% {
+        color: #198ecd;
+        /* End color */
+    }
+}
+
+.main>p {
+    font-family: 'Times New Roman', Times, serif;
+    animation: colorChange 2s ease-in-out infinite;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 90px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}

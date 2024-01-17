@@ -47,7 +47,7 @@ function Header() {
             <div className="header_right">
                 <h6 className='bookmark'> My Work</h6>
                 <h6 className='bookmark'>About Me</h6>
-                <h6 className='bookmark'>Contact</h6>
+                <h6 className='bookmark contact'>Contact</h6>
                 <div className="resume">
                     <GetAppIcon sx={{ width: 20, height: 20 }}/>
                     <h6 className='bookmark'>Resume</h6>

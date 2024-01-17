@@ -31,9 +31,13 @@
 
 }
 
+.contact {
+    padding-right: 20px !important;
+}
+
 .resume {
     cursor: pointer;
-    height: 45px;
+    height: 40px;
     width: 80px;
     display: flex;
     align-items: center;
@@ -41,6 +45,12 @@
     margin-right: 35px !important;
     background-color: #0F1035;
     color: #7FC7D9;
-    border-radius: 10px;
+    border-radius: 8px;
+    border: 1.5px solid #0F1035;
+}
+
+.resume:hover {
+    background-color: #7FC7D9;
+    color: #0F1035;
 
 }
